@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #53a2be;
+}
+
+.container {
+  width: 1000px;
+  min-height: 650px;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 25px auto;
+  box-shadow: 2px 2px 10px #000;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.bar:hover {
+  fill: #27187e;
+}
+
+#tooltip {
+  position: absolute;
+  width: 100px;
+  min-height: 55px;
+  text-align: center;
+  padding: 6px;
+  background-color: coral;
+  color: #fff;
+  border-radius: 2px;
+  opacity: 0;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
